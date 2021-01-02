@@ -1,0 +1,45 @@
+#slider {
+    width: 100%;
+    position: relative;
+}
+
+.slider__name {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.slider__content {
+    margin: 0 40px;
+}
+
+.slide {
+    margin: 0 10px;
+    padding: 10px;
+}
+
+.slick-next:before, .slick-prev:before {
+    color: #000;
+}
+
+.btn--close {
+    position: absolute;
+    top: -10px;
+    right: 20px;
+    background: transparent;
+    border: none;
+    font-size: 2em;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
+}
+
+.btn--close:hover {
+    color: red;
+    opacity: .5;
+}
+
+.btn--close:focus {
+    outline: none;
+}

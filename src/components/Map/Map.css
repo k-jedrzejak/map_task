@@ -1,0 +1,11 @@
+path {
+    fill:#94add6;
+    cursor: pointer;
+    -webkit-transition: all .5s linear;
+    -o-transition: all .5s linear;
+    transition: all .5s linear;
+}
+
+ path:hover {
+    fill: #F24C29;
+}
